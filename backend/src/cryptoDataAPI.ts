@@ -8,7 +8,7 @@ dotenv.config();
 // Helper: Get env var or return empty string
 const getEnv = (key: string) => process.env[key] || '';
 
-// BLS CPI (unchanged)
+// BLS CPI
 export async function fetchBLSCPI() {
   try {
     const BLS_KEY = getEnv('BLS_API_KEY');
@@ -26,7 +26,7 @@ export async function fetchBLSCPI() {
   }
 }
 
-// FRED Interest Rates (unchanged)
+// FRED Interest Rates
 export async function fetchFREDInterestRates() {
   try {
     const FRED_KEY = getEnv('FRED_API_KEY');
@@ -39,7 +39,7 @@ export async function fetchFREDInterestRates() {
   }
 }
 
-// FiscalData (unchanged)
+// FiscalData
 export async function fetchFiscalDataDeficits() {
   try {
     const response = await axios.get('https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_1?fields=record_date,current_fytd_net_outly_amt&filter=record_date:gte:2024-01-01&sort=-record_date&page[number]=1&page[size]=12');
@@ -51,7 +51,7 @@ export async function fetchFiscalDataDeficits() {
   }
 }
 
-// Fear and Greed Index (unchanged)
+// Fear and Greed Index
 export async function fetchFearAndGreed() {
   try {
     const response = await axios.get('https://api.alternative.me/fng/');
@@ -63,7 +63,7 @@ export async function fetchFearAndGreed() {
   }
 }
 
-// LunarCrush (unchanged)
+// LunarCrush
 export async function fetchLunarCrushSentiment(tokenSymbol: string) {
   try {
     const LUNAR_KEY = getEnv('LUNARCRUSH_API_KEY');
@@ -80,7 +80,7 @@ export async function fetchLunarCrushSentiment(tokenSymbol: string) {
   }
 }
 
-// CoinGecko (unchanged)
+// CoinGecko
 export async function fetchCoinGeckoTokenData(tokenId: string) {
   try {
     const response = await axios.get(`https://api.coingecko.com/api/v3/coins/${tokenId}?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false`, {
@@ -99,7 +99,7 @@ export async function fetchCoinGeckoTokenData(tokenId: string) {
   }
 }
 
-// DeFi Llama (unchanged)
+// DeFi Llama
 export async function fetchDeFiLlamaTVL(protocol: string = '') {
   try {
     const url = protocol ? `https://api.llama.fi/protocol/${protocol}` : 'https://api.llama.fi/protocols';
@@ -112,12 +112,12 @@ export async function fetchDeFiLlamaTVL(protocol: string = '') {
   }
 }
 
-// Whale Alert (conditional on API key)
+// Whale Alert (falls back to Etherscan)
 export async function fetchWhaleAlert() {
   const WHALE_KEY = getEnv('WHALE_ALERT_API_KEY');
   if (!WHALE_KEY) {
-    console.warn('WHALE_ALERT_API_KEY not set, falling back to Arkham Intelligence');
-    return fetchArkhamWhales();
+    console.warn('WHALE_ALERT_API_KEY not set, falling back to Etherscan');
+    return fetchEtherscanWhales();
   }
   try {
     const response = await axios.get(`https://api.whale-alert.io/v1/transactions?api_key=${WHALE_KEY}&min_value=1000000&limit=10`);
@@ -133,31 +133,51 @@ export async function fetchWhaleAlert() {
   }
 }
 
-// Arkham Intelligence (Free alternative)
-export async function fetchArkhamWhales() {
+// Etherscan (free alternative for Ethereum whale transactions)
+export async function fetchEtherscanWhales() {
   try {
-    const ARKHAM_KEY = getEnv('ARKHAM_API_KEY');
-    if (!ARKHAM_KEY) {
-      console.error('ARKHAM_API_KEY not set');
+    const ETHERSCAN_KEY = getEnv('ETHERSCAN_API_KEY');
+    if (!ETHERSCAN_KEY) {
+      console.error('ETHERSCAN_API_KEY not set');
       return [];
     }
-    // Assuming endpoint for recent large transactions (adjust based on actual API docs)
-    const response = await axios.get(`https://api.arkhamintelligence.com/transactions?min_amount=1000000&limit=10`, {
-      headers: { 'API-Key': ARKHAM_KEY }
-    });
-    const data = response.data?.transactions || [];
-    return Array.isArray(data) ? data.map(item => ({
-      amount: item.amount_usd || 0,
-      symbol: item.asset || 'UNKNOWN',
-      timestamp: item.timestamp || new Date().toISOString(),
-    })) : [];
+    const blockResponse = await axios.get(`https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey=${ETHERSCAN_KEY}`);
+    const latestBlock = parseInt(blockResponse.data.result, 16);
+
+    const txResponse = await axios.get(`https://api.etherscan.io/api?module=proxy&action=eth_getBlockByNumber&tag=${latestBlock.toString(16)}&boolean=true&apikey=${ETHERSCAN_KEY}`);
+    const transactions = txResponse.data.result.transactions || [];
+
+    const ethPrice = 2500; // Hardcoded for prototype; use CoinGecko for real-time
+    const minValueWei = (1000000 / ethPrice) * 1e18; // $1M in Wei
+    const whaleTxs = transactions.filter((tx: any) => parseInt(tx.value, 16) >= minValueWei);
+
+    return whaleTxs.map((tx: any) => ({
+      amount: parseInt(tx.value, 16) / 1e18, // Convert Wei to ETH
+      symbol: 'ETH',
+      timestamp: new Date(parseInt(txResponse.data.result.timestamp, 16) * 1000).toISOString(),
+    })).slice(0, 10);
   } catch (error) {
-    console.error('Error fetching Arkham Intelligence whales:', error);
+    console.error('Error fetching Etherscan whales:', error);
     return [];
   }
 }
 
-// NewsAPI (unchanged)
+// Token Unlocks
+export async function fetchTokenUnlocks(tokenSymbol: string) {
+  try {
+    const response = await axios.get(`https://api.token.unlocks.app/v1/projects/${tokenSymbol.toLowerCase()}`);
+    const data = response.data || { unlocks: [], allocations: {} };
+    return {
+      unlocks: Array.isArray(data.unlocks) ? data.unlocks : [],
+      allocations: data.allocations || {},
+    };
+  } catch (error) {
+    console.error('Error fetching Token Unlocks:', error);
+    return { unlocks: [], allocations: {} };
+  }
+}
+
+// NewsAPI
 export async function fetchNewsAPI(query: string = 'cryptocurrency regulation') {
   try {
     const NEWS_KEY = getEnv('NEWSAPI_KEY');
