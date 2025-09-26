@@ -1,0 +1,30 @@
+version: '3'
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: yourusername
+      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_DB: crypto_db
+    ports:
+      - "5432:5432"
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    depends_on:
+      - db
+    env_file: .env
+  analysis:
+    build: ./analysis
+    ports:
+      - "5000:5000"
+    env_file: .env
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    env_file: .env
+    

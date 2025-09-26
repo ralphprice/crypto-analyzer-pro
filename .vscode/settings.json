@@ -1,0 +1,10 @@
+{
+  "terminal.integrated.profiles.linux": {
+    "wsl-bash": {
+      "path": "wsl.exe",
+      "args": ["-d", "Ubuntu", "--", "bash"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "wsl-bash",
+  "terminal.integrated.automationShell.linux": "wsl.exe"
+}

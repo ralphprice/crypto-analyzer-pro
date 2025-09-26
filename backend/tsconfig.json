@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./types", "./node_modules/@types"]  // Point to root-level types folder
+  },
+  "include": ["src/**/*.ts", "types/**/*.d.ts"]  // Include root types
+}

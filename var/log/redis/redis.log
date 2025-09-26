@@ -1,0 +1,440 @@
+38569:C 21 Sep 2025 12:30:14.986 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+38569:C 21 Sep 2025 12:30:14.986 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=38569, just started
+38569:C 21 Sep 2025 12:30:14.986 # Configuration loaded
+38569:M 21 Sep 2025 12:30:14.986 * monotonic clock: POSIX clock_gettime
+38569:M 21 Sep 2025 12:30:14.987 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+38569:M 21 Sep 2025 12:30:14.987 # Failed listening on port 6379 (TCP), aborting.
+40278:C 21 Sep 2025 12:38:58.671 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+40278:C 21 Sep 2025 12:38:58.672 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=40278, just started
+40278:C 21 Sep 2025 12:38:58.672 # Configuration loaded
+40278:M 21 Sep 2025 12:38:58.672 * monotonic clock: POSIX clock_gettime
+40278:M 21 Sep 2025 12:38:58.673 * Running mode=standalone, port=6379.
+40278:M 21 Sep 2025 12:38:58.673 # Server initialized
+40278:M 21 Sep 2025 12:38:58.674 * Loading RDB produced by version 7.0.15
+40278:M 21 Sep 2025 12:38:58.674 * RDB age 754 seconds
+40278:M 21 Sep 2025 12:38:58.674 * RDB memory usage when created 0.84 Mb
+40278:M 21 Sep 2025 12:38:58.674 * Done loading RDB, keys loaded: 0, keys expired: 0.
+40278:M 21 Sep 2025 12:38:58.674 * DB loaded from disk: 0.000 seconds
+40278:M 21 Sep 2025 12:38:58.674 * Ready to accept connections
+40278:M 21 Sep 2025 12:39:02.451 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+40278:signal-handler (1758455996) Received SIGINT scheduling shutdown...
+40278:M 21 Sep 2025 12:59:57.081 # User requested shutdown...
+40278:M 21 Sep 2025 12:59:57.081 * Saving the final RDB snapshot before exiting.
+40278:M 21 Sep 2025 12:59:57.095 * DB saved on disk
+40278:M 21 Sep 2025 12:59:57.096 # Redis is now ready to exit, bye bye...
+44793:C 21 Sep 2025 13:01:55.900 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+44793:C 21 Sep 2025 13:01:55.900 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=44793, just started
+44793:C 21 Sep 2025 13:01:55.900 # Configuration loaded
+44793:M 21 Sep 2025 13:01:55.900 * monotonic clock: POSIX clock_gettime
+44793:M 21 Sep 2025 13:01:55.901 * Running mode=standalone, port=6379.
+44793:M 21 Sep 2025 13:01:55.901 # Server initialized
+44793:M 21 Sep 2025 13:01:55.902 * Loading RDB produced by version 7.0.15
+44793:M 21 Sep 2025 13:01:55.902 * RDB age 118 seconds
+44793:M 21 Sep 2025 13:01:55.902 * RDB memory usage when created 0.84 Mb
+44793:M 21 Sep 2025 13:01:55.902 * Done loading RDB, keys loaded: 0, keys expired: 0.
+44793:M 21 Sep 2025 13:01:55.902 * DB loaded from disk: 0.000 seconds
+44793:M 21 Sep 2025 13:01:55.902 * Ready to accept connections
+44793:M 21 Sep 2025 13:02:01.436 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+44793:signal-handler (1758456137) Received SIGINT scheduling shutdown...
+44793:M 21 Sep 2025 13:02:17.776 # User requested shutdown...
+44793:M 21 Sep 2025 13:02:17.776 * Saving the final RDB snapshot before exiting.
+44793:M 21 Sep 2025 13:02:17.784 * DB saved on disk
+44793:M 21 Sep 2025 13:02:17.784 # Redis is now ready to exit, bye bye...
+45629:C 21 Sep 2025 13:03:56.147 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+45629:C 21 Sep 2025 13:03:56.147 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=45629, just started
+45629:C 21 Sep 2025 13:03:56.147 # Configuration loaded
+45629:M 21 Sep 2025 13:03:56.148 * monotonic clock: POSIX clock_gettime
+45629:M 21 Sep 2025 13:03:56.150 * Running mode=standalone, port=6379.
+45629:M 21 Sep 2025 13:03:56.150 # Server initialized
+45629:M 21 Sep 2025 13:03:56.152 * Loading RDB produced by version 7.0.15
+45629:M 21 Sep 2025 13:03:56.152 * RDB age 99 seconds
+45629:M 21 Sep 2025 13:03:56.152 * RDB memory usage when created 0.84 Mb
+45629:M 21 Sep 2025 13:03:56.152 * Done loading RDB, keys loaded: 0, keys expired: 0.
+45629:M 21 Sep 2025 13:03:56.152 * DB loaded from disk: 0.001 seconds
+45629:M 21 Sep 2025 13:03:56.153 * Ready to accept connections
+45629:M 21 Sep 2025 13:04:00.543 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+45629:signal-handler (1758456248) Received SIGINT scheduling shutdown...
+45629:M 21 Sep 2025 13:04:08.694 # User requested shutdown...
+45629:M 21 Sep 2025 13:04:08.694 * Saving the final RDB snapshot before exiting.
+45629:M 21 Sep 2025 13:04:08.706 * DB saved on disk
+45629:M 21 Sep 2025 13:04:08.707 # Redis is now ready to exit, bye bye...
+45972:C 21 Sep 2025 13:04:16.828 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+45972:C 21 Sep 2025 13:04:16.828 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=45972, just started
+45972:C 21 Sep 2025 13:04:16.828 # Configuration loaded
+45972:M 21 Sep 2025 13:04:16.828 * monotonic clock: POSIX clock_gettime
+45972:M 21 Sep 2025 13:04:16.829 * Running mode=standalone, port=6379.
+45972:M 21 Sep 2025 13:04:16.829 # Server initialized
+45972:M 21 Sep 2025 13:04:16.830 * Loading RDB produced by version 7.0.15
+45972:M 21 Sep 2025 13:04:16.830 * RDB age 8 seconds
+45972:M 21 Sep 2025 13:04:16.830 * RDB memory usage when created 0.84 Mb
+45972:M 21 Sep 2025 13:04:16.830 * Done loading RDB, keys loaded: 0, keys expired: 0.
+45972:M 21 Sep 2025 13:04:16.830 * DB loaded from disk: 0.000 seconds
+45972:M 21 Sep 2025 13:04:16.830 * Ready to accept connections
+45972:M 21 Sep 2025 13:04:20.055 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+45972:signal-handler (1758456328) Received SIGINT scheduling shutdown...
+45972:M 21 Sep 2025 13:05:28.370 # User requested shutdown...
+45972:M 21 Sep 2025 13:05:28.370 * Saving the final RDB snapshot before exiting.
+45972:M 21 Sep 2025 13:05:28.379 * DB saved on disk
+45972:M 21 Sep 2025 13:05:28.379 # Redis is now ready to exit, bye bye...
+46364:C 21 Sep 2025 13:05:30.604 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+46364:C 21 Sep 2025 13:05:30.604 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=46364, just started
+46364:C 21 Sep 2025 13:05:30.604 # Configuration loaded
+46364:M 21 Sep 2025 13:05:30.604 * monotonic clock: POSIX clock_gettime
+46364:M 21 Sep 2025 13:05:30.605 * Running mode=standalone, port=6379.
+46364:M 21 Sep 2025 13:05:30.605 # Server initialized
+46364:M 21 Sep 2025 13:05:30.606 * Loading RDB produced by version 7.0.15
+46364:M 21 Sep 2025 13:05:30.606 * RDB age 2 seconds
+46364:M 21 Sep 2025 13:05:30.606 * RDB memory usage when created 0.84 Mb
+46364:M 21 Sep 2025 13:05:30.606 * Done loading RDB, keys loaded: 0, keys expired: 0.
+46364:M 21 Sep 2025 13:05:30.606 * DB loaded from disk: 0.000 seconds
+46364:M 21 Sep 2025 13:05:30.606 * Ready to accept connections
+46364:M 21 Sep 2025 13:05:32.673 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+46364:signal-handler (1758456354) Received SIGINT scheduling shutdown...
+46364:M 21 Sep 2025 13:05:54.788 # User requested shutdown...
+46364:M 21 Sep 2025 13:05:54.788 * Saving the final RDB snapshot before exiting.
+46364:M 21 Sep 2025 13:05:54.799 * DB saved on disk
+46364:M 21 Sep 2025 13:05:54.799 # Redis is now ready to exit, bye bye...
+48373:C 21 Sep 2025 13:10:55.694 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+48373:C 21 Sep 2025 13:10:55.694 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=48373, just started
+48373:C 21 Sep 2025 13:10:55.694 # Configuration loaded
+48373:M 21 Sep 2025 13:10:55.695 * monotonic clock: POSIX clock_gettime
+48373:M 21 Sep 2025 13:10:55.697 * Running mode=standalone, port=6379.
+48373:M 21 Sep 2025 13:10:55.697 # Server initialized
+48373:M 21 Sep 2025 13:10:55.698 * Loading RDB produced by version 7.0.15
+48373:M 21 Sep 2025 13:10:55.699 * RDB age 301 seconds
+48373:M 21 Sep 2025 13:10:55.699 * RDB memory usage when created 0.84 Mb
+48373:M 21 Sep 2025 13:10:55.699 * Done loading RDB, keys loaded: 0, keys expired: 0.
+48373:M 21 Sep 2025 13:10:55.699 * DB loaded from disk: 0.001 seconds
+48373:M 21 Sep 2025 13:10:55.699 * Ready to accept connections
+48373:M 21 Sep 2025 14:10:56.099 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 14:10:56.101 * Background saving started by pid 64138
+64138:C 21 Sep 2025 14:10:56.117 * DB saved on disk
+64138:C 21 Sep 2025 14:10:56.119 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 14:10:56.202 * Background saving terminated with success
+48373:M 21 Sep 2025 15:10:57.052 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 15:10:57.055 * Background saving started by pid 76859
+76859:C 21 Sep 2025 15:10:57.070 * DB saved on disk
+76859:C 21 Sep 2025 15:10:57.070 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 15:10:57.155 * Background saving terminated with success
+48373:M 21 Sep 2025 16:10:58.100 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 16:10:58.102 * Background saving started by pid 89757
+89757:C 21 Sep 2025 16:10:58.117 * DB saved on disk
+89757:C 21 Sep 2025 16:10:58.118 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 16:10:58.203 * Background saving terminated with success
+48373:M 21 Sep 2025 17:10:59.003 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 17:10:59.005 * Background saving started by pid 98754
+98754:C 21 Sep 2025 17:10:59.024 * DB saved on disk
+98754:C 21 Sep 2025 17:10:59.025 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 17:10:59.107 * Background saving terminated with success
+48373:M 21 Sep 2025 18:11:00.074 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 18:11:00.075 * Background saving started by pid 111396
+111396:C 21 Sep 2025 18:11:00.089 * DB saved on disk
+111396:C 21 Sep 2025 18:11:00.090 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 18:11:00.176 * Background saving terminated with success
+48373:M 21 Sep 2025 19:11:01.087 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 19:11:01.089 * Background saving started by pid 120685
+120685:C 21 Sep 2025 19:11:01.104 * DB saved on disk
+120685:C 21 Sep 2025 19:11:01.105 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 19:11:01.191 * Background saving terminated with success
+48373:M 21 Sep 2025 20:11:02.075 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 20:11:02.079 * Background saving started by pid 131659
+131659:C 21 Sep 2025 20:11:02.091 * DB saved on disk
+131659:C 21 Sep 2025 20:11:02.093 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 20:11:02.179 * Background saving terminated with success
+48373:M 21 Sep 2025 21:11:03.053 * 1 changes in 3600 seconds. Saving...
+48373:M 21 Sep 2025 21:11:03.056 * Background saving started by pid 142376
+142376:C 21 Sep 2025 21:11:03.071 * DB saved on disk
+142376:C 21 Sep 2025 21:11:03.073 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+48373:M 21 Sep 2025 21:11:03.156 * Background saving terminated with success
+7065:C 22 Sep 2025 09:36:36.637 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+7065:C 22 Sep 2025 09:36:36.637 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=7065, just started
+7065:C 22 Sep 2025 09:36:36.637 # Configuration loaded
+7065:M 22 Sep 2025 09:36:36.638 * monotonic clock: POSIX clock_gettime
+7065:M 22 Sep 2025 09:36:36.640 * Running mode=standalone, port=6379.
+7065:M 22 Sep 2025 09:36:36.640 # Server initialized
+7065:M 22 Sep 2025 09:36:36.641 * Loading RDB produced by version 7.0.15
+7065:M 22 Sep 2025 09:36:36.641 * RDB age 44733 seconds
+7065:M 22 Sep 2025 09:36:36.641 * RDB memory usage when created 1.27 Mb
+7065:M 22 Sep 2025 09:36:36.641 * Done loading RDB, keys loaded: 3, keys expired: 0.
+7065:M 22 Sep 2025 09:36:36.641 * DB loaded from disk: 0.000 seconds
+7065:M 22 Sep 2025 09:36:36.642 * Ready to accept connections
+7537:C 22 Sep 2025 09:38:37.589 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+7537:C 22 Sep 2025 09:38:37.589 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=7537, just started
+7537:C 22 Sep 2025 09:38:37.589 # Configuration loaded
+7537:M 22 Sep 2025 09:38:37.589 * monotonic clock: POSIX clock_gettime
+7537:M 22 Sep 2025 09:38:37.589 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+7537:M 22 Sep 2025 09:38:37.590 # Failed listening on port 6379 (TCP), aborting.
+12616:C 22 Sep 2025 09:57:39.852 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12616:C 22 Sep 2025 09:57:39.852 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=12616, just started
+12616:C 22 Sep 2025 09:57:39.852 # Configuration loaded
+12616:M 22 Sep 2025 09:57:39.853 * monotonic clock: POSIX clock_gettime
+12616:M 22 Sep 2025 09:57:39.853 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+12616:M 22 Sep 2025 09:57:39.853 # Failed listening on port 6379 (TCP), aborting.
+13303:C 22 Sep 2025 10:00:57.092 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13303:C 22 Sep 2025 10:00:57.093 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=13303, just started
+13303:C 22 Sep 2025 10:00:57.093 # Configuration loaded
+13303:M 22 Sep 2025 10:00:57.094 * monotonic clock: POSIX clock_gettime
+13303:M 22 Sep 2025 10:00:57.094 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+13303:M 22 Sep 2025 10:00:57.094 # Failed listening on port 6379 (TCP), aborting.
+14116:C 22 Sep 2025 10:02:55.337 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14116:C 22 Sep 2025 10:02:55.338 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=14116, just started
+14116:C 22 Sep 2025 10:02:55.338 # Configuration loaded
+14116:M 22 Sep 2025 10:02:55.339 * monotonic clock: POSIX clock_gettime
+14116:M 22 Sep 2025 10:02:55.340 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+14116:M 22 Sep 2025 10:02:55.340 # Failed listening on port 6379 (TCP), aborting.
+7065:M 22 Sep 2025 10:36:37.058 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 10:36:37.061 * Background saving started by pid 21807
+21807:C 22 Sep 2025 10:36:37.071 * DB saved on disk
+21807:C 22 Sep 2025 10:36:37.072 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 10:36:37.161 * Background saving terminated with success
+7065:M 22 Sep 2025 11:36:38.021 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 11:36:38.024 * Background saving started by pid 32560
+32560:C 22 Sep 2025 11:36:38.036 * DB saved on disk
+32560:C 22 Sep 2025 11:36:38.037 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 11:36:38.125 * Background saving terminated with success
+7065:M 22 Sep 2025 12:36:39.077 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 12:36:39.080 * Background saving started by pid 52541
+52541:C 22 Sep 2025 12:36:39.099 * DB saved on disk
+52541:C 22 Sep 2025 12:36:39.100 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 12:36:39.181 * Background saving terminated with success
+7065:M 22 Sep 2025 13:36:40.043 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 13:36:40.045 * Background saving started by pid 99077
+99077:C 22 Sep 2025 13:36:40.056 * DB saved on disk
+99077:C 22 Sep 2025 13:36:40.057 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 13:36:40.145 * Background saving terminated with success
+7065:M 22 Sep 2025 16:36:43.036 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 16:36:43.039 * Background saving started by pid 120674
+120674:C 22 Sep 2025 16:36:43.049 * DB saved on disk
+120674:C 22 Sep 2025 16:36:43.050 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 16:36:43.139 * Background saving terminated with success
+7065:M 22 Sep 2025 17:36:44.014 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 17:36:44.015 * Background saving started by pid 130045
+130045:C 22 Sep 2025 17:36:44.032 * DB saved on disk
+130045:C 22 Sep 2025 17:36:44.033 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 17:36:44.116 * Background saving terminated with success
+7065:M 22 Sep 2025 18:36:45.032 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 18:36:45.034 * Background saving started by pid 138935
+138935:C 22 Sep 2025 18:36:45.046 * DB saved on disk
+138935:C 22 Sep 2025 18:36:45.047 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 18:36:45.134 * Background saving terminated with success
+7065:M 22 Sep 2025 19:36:46.038 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 19:36:46.041 * Background saving started by pid 147830
+147830:C 22 Sep 2025 19:36:46.053 * DB saved on disk
+147830:C 22 Sep 2025 19:36:46.054 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 19:36:46.141 * Background saving terminated with success
+7065:M 22 Sep 2025 20:36:47.079 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 20:36:47.081 * Background saving started by pid 156573
+156573:C 22 Sep 2025 20:36:47.096 * DB saved on disk
+156573:C 22 Sep 2025 20:36:47.097 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 20:36:47.182 * Background saving terminated with success
+7065:M 22 Sep 2025 21:36:48.039 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 21:36:48.042 * Background saving started by pid 165151
+165151:C 22 Sep 2025 21:36:48.056 * DB saved on disk
+165151:C 22 Sep 2025 21:36:48.057 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 21:36:48.143 * Background saving terminated with success
+7065:M 22 Sep 2025 22:36:49.041 * 1 changes in 3600 seconds. Saving...
+7065:M 22 Sep 2025 22:36:49.042 * Background saving started by pid 176753
+176753:C 22 Sep 2025 22:36:49.058 * DB saved on disk
+176753:C 22 Sep 2025 22:36:49.058 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7065:M 22 Sep 2025 22:36:49.143 * Background saving terminated with success
+3982:C 23 Sep 2025 09:34:43.184 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3982:C 23 Sep 2025 09:34:43.185 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=3982, just started
+3982:C 23 Sep 2025 09:34:43.185 # Configuration loaded
+3982:M 23 Sep 2025 09:34:43.186 * monotonic clock: POSIX clock_gettime
+3982:M 23 Sep 2025 09:34:43.189 * Running mode=standalone, port=6379.
+3982:M 23 Sep 2025 09:34:43.189 # Server initialized
+3982:M 23 Sep 2025 09:34:43.190 * Loading RDB produced by version 7.0.15
+3982:M 23 Sep 2025 09:34:43.190 * RDB age 39474 seconds
+3982:M 23 Sep 2025 09:34:43.190 * RDB memory usage when created 1.19 Mb
+3982:M 23 Sep 2025 09:34:43.190 * Done loading RDB, keys loaded: 3, keys expired: 0.
+3982:M 23 Sep 2025 09:34:43.190 * DB loaded from disk: 0.000 seconds
+3982:M 23 Sep 2025 09:34:43.190 * Ready to accept connections
+20153:C 23 Sep 2025 10:21:36.265 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+20153:C 23 Sep 2025 10:21:36.266 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=20153, just started
+20153:C 23 Sep 2025 10:21:36.266 # Configuration loaded
+20153:M 23 Sep 2025 10:21:36.266 * monotonic clock: POSIX clock_gettime
+20153:M 23 Sep 2025 10:21:36.267 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+20153:M 23 Sep 2025 10:21:36.267 # Failed listening on port 6379 (TCP), aborting.
+24232:C 23 Sep 2025 10:28:43.390 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+24232:C 23 Sep 2025 10:28:43.391 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=24232, just started
+24232:C 23 Sep 2025 10:28:43.391 # Configuration loaded
+24232:M 23 Sep 2025 10:28:43.391 * monotonic clock: POSIX clock_gettime
+24232:M 23 Sep 2025 10:28:43.391 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+24232:M 23 Sep 2025 10:28:43.391 # Failed listening on port 6379 (TCP), aborting.
+26396:C 23 Sep 2025 10:31:24.729 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26396:C 23 Sep 2025 10:31:24.729 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=26396, just started
+26396:C 23 Sep 2025 10:31:24.729 # Configuration loaded
+26396:M 23 Sep 2025 10:31:24.729 * monotonic clock: POSIX clock_gettime
+26396:M 23 Sep 2025 10:31:24.729 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+26396:M 23 Sep 2025 10:31:24.729 # Failed listening on port 6379 (TCP), aborting.
+29905:C 23 Sep 2025 10:39:34.263 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+29905:C 23 Sep 2025 10:39:34.263 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=29905, just started
+29905:C 23 Sep 2025 10:39:34.263 # Configuration loaded
+29905:M 23 Sep 2025 10:39:34.263 * monotonic clock: POSIX clock_gettime
+29905:M 23 Sep 2025 10:39:34.264 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+29905:M 23 Sep 2025 10:39:34.264 # Failed listening on port 6379 (TCP), aborting.
+32741:C 23 Sep 2025 10:43:29.816 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+32741:C 23 Sep 2025 10:43:29.816 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=32741, just started
+32741:C 23 Sep 2025 10:43:29.816 # Configuration loaded
+32741:M 23 Sep 2025 10:43:29.817 * monotonic clock: POSIX clock_gettime
+32741:M 23 Sep 2025 10:43:29.817 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+32741:M 23 Sep 2025 10:43:29.817 # Failed listening on port 6379 (TCP), aborting.
+35425:C 23 Sep 2025 10:46:25.582 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+35425:C 23 Sep 2025 10:46:25.582 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=35425, just started
+35425:C 23 Sep 2025 10:46:25.582 # Configuration loaded
+35425:M 23 Sep 2025 10:46:25.582 * monotonic clock: POSIX clock_gettime
+35425:M 23 Sep 2025 10:46:25.583 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+35425:M 23 Sep 2025 10:46:25.583 # Failed listening on port 6379 (TCP), aborting.
+37857:C 23 Sep 2025 10:50:05.114 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+37857:C 23 Sep 2025 10:50:05.114 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=37857, just started
+37857:C 23 Sep 2025 10:50:05.114 # Configuration loaded
+37857:M 23 Sep 2025 10:50:05.115 * monotonic clock: POSIX clock_gettime
+37857:M 23 Sep 2025 10:50:05.115 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+37857:M 23 Sep 2025 10:50:05.115 # Failed listening on port 6379 (TCP), aborting.
+39953:C 23 Sep 2025 10:51:39.868 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+39953:C 23 Sep 2025 10:51:39.868 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=39953, just started
+39953:C 23 Sep 2025 10:51:39.868 # Configuration loaded
+39953:M 23 Sep 2025 10:51:39.869 * monotonic clock: POSIX clock_gettime
+39953:M 23 Sep 2025 10:51:39.869 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+39953:M 23 Sep 2025 10:51:39.869 # Failed listening on port 6379 (TCP), aborting.
+42462:C 23 Sep 2025 10:52:51.715 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+42462:C 23 Sep 2025 10:52:51.715 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=42462, just started
+42462:C 23 Sep 2025 10:52:51.715 # Configuration loaded
+42462:M 23 Sep 2025 10:52:51.716 * monotonic clock: POSIX clock_gettime
+42462:M 23 Sep 2025 10:52:51.716 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+42462:M 23 Sep 2025 10:52:51.716 # Failed listening on port 6379 (TCP), aborting.
+44953:C 23 Sep 2025 10:55:06.148 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+44953:C 23 Sep 2025 10:55:06.148 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=44953, just started
+44953:C 23 Sep 2025 10:55:06.148 # Configuration loaded
+44953:M 23 Sep 2025 10:55:06.149 * monotonic clock: POSIX clock_gettime
+44953:M 23 Sep 2025 10:55:06.149 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+44953:M 23 Sep 2025 10:55:06.149 # Failed listening on port 6379 (TCP), aborting.
+78741:C 23 Sep 2025 13:57:48.736 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+78741:C 23 Sep 2025 13:57:48.736 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=78741, just started
+78741:C 23 Sep 2025 13:57:48.736 # Configuration loaded
+78741:M 23 Sep 2025 13:57:48.739 * monotonic clock: POSIX clock_gettime
+78741:M 23 Sep 2025 13:57:48.741 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+78741:M 23 Sep 2025 13:57:48.741 # Failed listening on port 6379 (TCP), aborting.
+103379:C 23 Sep 2025 16:02:53.726 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+103379:C 23 Sep 2025 16:02:53.726 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=103379, just started
+103379:C 23 Sep 2025 16:02:53.726 # Configuration loaded
+103379:M 23 Sep 2025 16:02:53.727 * monotonic clock: POSIX clock_gettime
+103379:M 23 Sep 2025 16:02:53.727 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+103379:M 23 Sep 2025 16:02:53.728 # Failed listening on port 6379 (TCP), aborting.
+105343:C 23 Sep 2025 16:05:43.565 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+105343:C 23 Sep 2025 16:05:43.565 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=105343, just started
+105343:C 23 Sep 2025 16:05:43.565 # Configuration loaded
+105343:M 23 Sep 2025 16:05:43.566 * monotonic clock: POSIX clock_gettime
+105343:M 23 Sep 2025 16:05:43.566 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+105343:M 23 Sep 2025 16:05:43.566 # Failed listening on port 6379 (TCP), aborting.
+105431:C 23 Sep 2025 16:06:02.186 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+105431:C 23 Sep 2025 16:06:02.186 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=105431, just started
+105431:C 23 Sep 2025 16:06:02.186 # Configuration loaded
+105431:M 23 Sep 2025 16:06:02.187 * monotonic clock: POSIX clock_gettime
+105431:M 23 Sep 2025 16:06:02.187 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+105431:M 23 Sep 2025 16:06:02.187 # Failed listening on port 6379 (TCP), aborting.
+107413:C 23 Sep 2025 16:07:16.298 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+107413:C 23 Sep 2025 16:07:16.298 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=107413, just started
+107413:C 23 Sep 2025 16:07:16.298 # Configuration loaded
+107413:M 23 Sep 2025 16:07:16.298 * monotonic clock: POSIX clock_gettime
+107413:M 23 Sep 2025 16:07:16.299 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+107413:M 23 Sep 2025 16:07:16.299 # Failed listening on port 6379 (TCP), aborting.
+110837:C 23 Sep 2025 16:17:17.667 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+110837:C 23 Sep 2025 16:17:17.668 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=110837, just started
+110837:C 23 Sep 2025 16:17:17.668 # Configuration loaded
+110837:M 23 Sep 2025 16:17:17.668 * monotonic clock: POSIX clock_gettime
+110837:M 23 Sep 2025 16:17:17.669 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+110837:M 23 Sep 2025 16:17:17.669 # Failed listening on port 6379 (TCP), aborting.
+112727:C 23 Sep 2025 16:18:13.820 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+112727:C 23 Sep 2025 16:18:13.820 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=112727, just started
+112727:C 23 Sep 2025 16:18:13.821 # Configuration loaded
+112727:M 23 Sep 2025 16:18:13.821 * monotonic clock: POSIX clock_gettime
+112727:M 23 Sep 2025 16:18:13.821 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+112727:M 23 Sep 2025 16:18:13.821 # Failed listening on port 6379 (TCP), aborting.
+5518:C 24 Sep 2025 08:40:53.842 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5518:C 24 Sep 2025 08:40:53.843 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=5518, just started
+5518:C 24 Sep 2025 08:40:53.843 # Configuration loaded
+5518:M 24 Sep 2025 08:40:53.844 * monotonic clock: POSIX clock_gettime
+5518:M 24 Sep 2025 08:40:53.847 * Running mode=standalone, port=6379.
+5518:M 24 Sep 2025 08:40:53.847 # Server initialized
+5518:M 24 Sep 2025 08:40:53.848 * Loading RDB produced by version 7.0.15
+5518:M 24 Sep 2025 08:40:53.848 * RDB age 122644 seconds
+5518:M 24 Sep 2025 08:40:53.848 * RDB memory usage when created 1.19 Mb
+5518:M 24 Sep 2025 08:40:53.848 * Done loading RDB, keys loaded: 3, keys expired: 0.
+5518:M 24 Sep 2025 08:40:53.848 * DB loaded from disk: 0.000 seconds
+5518:M 24 Sep 2025 08:40:53.849 * Ready to accept connections
+5518:signal-handler (1758699776) Received SIGINT scheduling shutdown...
+5518:M 24 Sep 2025 08:42:56.343 # User requested shutdown...
+5518:M 24 Sep 2025 08:42:56.343 * Saving the final RDB snapshot before exiting.
+5518:M 24 Sep 2025 08:42:56.356 * DB saved on disk
+5518:M 24 Sep 2025 08:42:56.356 # Redis is now ready to exit, bye bye...
+5907:C 24 Sep 2025 08:42:57.904 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5907:C 24 Sep 2025 08:42:57.904 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=5907, just started
+5907:C 24 Sep 2025 08:42:57.904 # Configuration loaded
+5907:M 24 Sep 2025 08:42:57.904 * monotonic clock: POSIX clock_gettime
+5907:M 24 Sep 2025 08:42:57.905 * Running mode=standalone, port=6379.
+5907:M 24 Sep 2025 08:42:57.905 # Server initialized
+5907:M 24 Sep 2025 08:42:57.906 * Loading RDB produced by version 7.0.15
+5907:M 24 Sep 2025 08:42:57.906 * RDB age 1 seconds
+5907:M 24 Sep 2025 08:42:57.906 * RDB memory usage when created 0.84 Mb
+5907:M 24 Sep 2025 08:42:57.906 * Done loading RDB, keys loaded: 3, keys expired: 0.
+5907:M 24 Sep 2025 08:42:57.906 * DB loaded from disk: 0.000 seconds
+5907:M 24 Sep 2025 08:42:57.906 * Ready to accept connections
+5907:M 24 Sep 2025 08:43:03.334 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+5907:signal-handler (1758702732) Received SIGINT scheduling shutdown...
+5907:M 24 Sep 2025 09:32:12.138 # User requested shutdown...
+5907:M 24 Sep 2025 09:32:12.139 * Saving the final RDB snapshot before exiting.
+5907:M 24 Sep 2025 09:32:12.156 * DB saved on disk
+5907:M 24 Sep 2025 09:32:12.156 # Redis is now ready to exit, bye bye...
+14611:C 24 Sep 2025 09:32:31.131 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14611:C 24 Sep 2025 09:32:31.131 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=14611, just started
+14611:C 24 Sep 2025 09:32:31.131 # Configuration loaded
+14611:M 24 Sep 2025 09:32:31.131 * monotonic clock: POSIX clock_gettime
+14611:M 24 Sep 2025 09:32:31.134 * Running mode=standalone, port=6379.
+14611:M 24 Sep 2025 09:32:31.135 # Server initialized
+14611:M 24 Sep 2025 09:32:31.136 * Loading RDB produced by version 7.0.15
+14611:M 24 Sep 2025 09:32:31.136 * RDB age 19 seconds
+14611:M 24 Sep 2025 09:32:31.136 * RDB memory usage when created 0.84 Mb
+14611:M 24 Sep 2025 09:32:31.136 * Done loading RDB, keys loaded: 3, keys expired: 0.
+14611:M 24 Sep 2025 09:32:31.136 * DB loaded from disk: 0.001 seconds
+14611:M 24 Sep 2025 09:32:31.137 * Ready to accept connections
+14611:signal-handler (1758705002) Received SIGINT scheduling shutdown...
+14611:M 24 Sep 2025 10:10:02.501 # User requested shutdown...
+14611:M 24 Sep 2025 10:10:02.501 * Saving the final RDB snapshot before exiting.
+14611:M 24 Sep 2025 10:10:02.511 * DB saved on disk
+14611:M 24 Sep 2025 10:10:02.512 # Redis is now ready to exit, bye bye...
+22810:C 24 Sep 2025 10:10:04.010 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+22810:C 24 Sep 2025 10:10:04.010 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=22810, just started
+22810:C 24 Sep 2025 10:10:04.010 # Configuration loaded
+22810:M 24 Sep 2025 10:10:04.011 * monotonic clock: POSIX clock_gettime
+22810:M 24 Sep 2025 10:10:04.011 * Running mode=standalone, port=6379.
+22810:M 24 Sep 2025 10:10:04.011 # Server initialized
+22810:M 24 Sep 2025 10:10:04.012 * Loading RDB produced by version 7.0.15
+22810:M 24 Sep 2025 10:10:04.012 * RDB age 2 seconds
+22810:M 24 Sep 2025 10:10:04.012 * RDB memory usage when created 0.84 Mb
+22810:M 24 Sep 2025 10:10:04.012 * Done loading RDB, keys loaded: 3, keys expired: 0.
+22810:M 24 Sep 2025 10:10:04.012 * DB loaded from disk: 0.000 seconds
+22810:M 24 Sep 2025 10:10:04.012 * Ready to accept connections
+22810:M 24 Sep 2025 10:10:09.336 # Possible SECURITY ATTACK detected. It looks like somebody is sending POST or Host: commands to Redis. This is likely due to an attacker attempting to use Cross Protocol Scripting to compromise your Redis instance. Connection aborted.
+3948:C 25 Sep 2025 07:43:48.194 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3948:C 25 Sep 2025 07:43:48.195 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=3948, just started
+3948:C 25 Sep 2025 07:43:48.195 # Configuration loaded
+3948:M 25 Sep 2025 07:43:48.195 * monotonic clock: POSIX clock_gettime
+3948:M 25 Sep 2025 07:43:48.197 * Running mode=standalone, port=6379.
+3948:M 25 Sep 2025 07:43:48.198 # Server initialized
+3948:M 25 Sep 2025 07:43:48.199 * Loading RDB produced by version 7.0.15
+3948:M 25 Sep 2025 07:43:48.199 * RDB age 77626 seconds
+3948:M 25 Sep 2025 07:43:48.199 * RDB memory usage when created 0.84 Mb
+3948:M 25 Sep 2025 07:43:48.199 * Done loading RDB, keys loaded: 3, keys expired: 0.
+3948:M 25 Sep 2025 07:43:48.199 * DB loaded from disk: 0.000 seconds
+3948:M 25 Sep 2025 07:43:48.199 * Ready to accept connections
+3948:M 25 Sep 2025 08:43:49.012 * 1 changes in 3600 seconds. Saving...
+3948:M 25 Sep 2025 08:43:49.014 * Background saving started by pid 16837
+16837:C 25 Sep 2025 08:43:49.029 * DB saved on disk
+16837:C 25 Sep 2025 08:43:49.030 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+3948:M 25 Sep 2025 08:43:49.115 * Background saving terminated with success
+3948:M 25 Sep 2025 09:43:50.010 * 1 changes in 3600 seconds. Saving...
+3948:M 25 Sep 2025 09:43:50.013 * Background saving started by pid 27077
+27077:C 25 Sep 2025 09:43:50.026 * DB saved on disk
+27077:C 25 Sep 2025 09:43:50.027 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+3948:M 25 Sep 2025 09:43:50.114 * Background saving terminated with success
