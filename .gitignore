@@ -1,10 +1,71 @@
-node_modules/ .next/ dist/ out/ build/ *.log npm-debug.log yarn-error.log coverage/
-venv/ *.pyc pycache/ *.pyo *.pyd .Python pip-log.txt pip-delete-this-directory.txt
-.env *.env *.env.local *.env.development.local *.env.test.local *.env.production.local
-*.dump *.sql.gz var/log/redis/redis.log data/ dump.rdb
-.vscode/* !.vscode/tasks.json !.vscode/settings.json
-.DS_Store Thumbs.db
-*.swp *~ *.bak *.tmp
+# Node.js/Frontend (Next.js)
+node_modules/
+.next/
+dist/
+out/
+build/
+*.log
+npm-debug.log
+yarn-error.log
+coverage/
+
+# Python/Flask/Celery (Analysis Service)
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment Variables (Sensitive)
+.env
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Database/Redis
+*.dump
+*.sql.gz
+var/log/redis/redis.log
+data/
+dump.rdb
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE and Temporary Files
+*.swp
+*~
+*.bak
+*.tmp
+
+# Ignore compiled JavaScript from TypeScript
 backend/dist/
-*.cache *.lock package-lock.json yarn.lock
-!analysis/requirements.txt !backend/package.json !frontend/package.json !.ts !.tsx !.py !.sql !.json !.mjs !*.css
+
+# Ignore caches and locks
+*.cache
+*.lock
+package-lock.json
+yarn.lock
+
+# Keep essential files
+!analysis/requirements.txt
+!backend/package.json
+!frontend/package.json
+!*.ts
+!*.tsx
+!*.py
+!*.sql
+!*.json
+!*.mjs
+!*.css
